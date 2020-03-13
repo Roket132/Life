@@ -159,7 +159,7 @@ int main(int argc, char *argv[]) {
 
     } else {
         std::cout << "run with arguments: \n"
-                     "\"random/r n (time_delay) m\" "
+                     "\"random/r n m (time_delay)\" "
                      "or \"custom/c file_name\" (time_delay)" << std::endl;
         return 0;
     }
